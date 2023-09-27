@@ -32,6 +32,10 @@
 </section>
 <section name="Changes in 1.2.40">
   <changelog>
+    <add>
+      <bug>66670</bug>: Add SSLHostConfig#certificateKeyPasswordFile and
+      SSLHostConfig#certificateKeystorePasswordFile. (michaelo)
+    </add>
     <update>
       Drop useless <code>compile.optimize</code> option. (michaelo)
     </update>
